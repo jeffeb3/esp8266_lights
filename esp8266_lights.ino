@@ -2,6 +2,7 @@
 #include "Constants.h"
 #include "Led.h"
 
+int convertToInt(char upper,char lower);
 
 #define LEDoff digitalWrite(LEDPIN,HIGH)
 #define LEDon digitalWrite(LEDPIN,LOW)
